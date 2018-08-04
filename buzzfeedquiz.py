@@ -31,4 +31,8 @@ while True:
     print("Your favorite food is mac and cheese.")
   elif counter <=6:
     print("Your favorite food is pizza. Warm and wonderful like your heart! <3")
-  break
+  endans = input("Wanna take the quiz again?")
+  if "y" in endans:
+    continue
+  else:
+    break
