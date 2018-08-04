@@ -27,8 +27,8 @@ while True:
     counter += 1
   if counter <=2:
     print("Your favorite food is cold soup, you heartless scumbag.")
-    elif counter <=4:
-      print("Your favorite food is mac and cheese.")
-    elif counter <=6:
-        print("Your favorite food is pizza. Warm and wonderful like your heart! <3")
-      break
+  elif counter <=4:
+    print("Your favorite food is mac and cheese.")
+  elif counter <=6:
+    print("Your favorite food is pizza. Warm and wonderful like your heart! <3")
+  break
