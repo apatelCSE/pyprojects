@@ -4,16 +4,18 @@ guessnum = random.randint(1, 20)
 print("""Welcome to the Guessing Game!
 The number is between 1 and 20.
 How many tries will it take you to guess it?""")
+counter = 1
     
 while True:
     guess = int(input("""Guess?
 """))
-    counter = 0
     if guess == guessnum:
-        print("You got it! Yay you!")
-        endq = input("Wanna play again?")
+        print("You got it! It took you " + str(counter) + " tries to guess the number. Yay you!")
+        endq = input("""Wanna play again?
+""")
         if "y" in endq:
             guessnum = random.randint(1,20)
+            counter = 1
             continue
         else:
             break
